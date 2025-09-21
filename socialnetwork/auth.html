@@ -13,21 +13,15 @@
             <section>
 
                 <form action="/submit" method="post" id="regForm">
-                    <input type="text" name="Name" placeholder="Имя" required>
-                    <input type="text" name="Lastname" placeholder="Фамилия" required>
                     <input type="tel" name="Numer" placeholder="Телефон" required pattern="[0-9]{11}">
-                    <input type="email" name="Email" placeholder="Эл. почта" required>
-                    <input type="password" name="Pwd" placeholder="Придумайте пароль" required minlength="6">
-                    <input type="password" name="RepPwd" placeholder="Повторите пароль" required>
-                    <input type="submit" value="Зарегистрироваться">
+                    <input type="password" name="Pwd" placeholder="Пароль" required minlength="6">
+                    <input type="submit" value="Войти">
                 </form>
 
                 <p>или</p>
 
-                <a href="auth.html">
-                    <button>
-                        Войти
-                    </button>
+                <a href="reg.html">
+                    <button>Зарегистрироваться</button>
                 </a>
 
                 <a href="index.html">&lt;На главную</a>

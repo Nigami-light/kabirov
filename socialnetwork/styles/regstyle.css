@@ -26,33 +26,63 @@ main section form input[type="reppassword"] {
     border: 1px solid #ccc;
     border-radius: 8px;
     font-size: 14px;
-    transition: border-color 0.3s, box-shadow 0.3s;
-}
-
-main section form input:focus{
-    border-color: #5181b8;
-    box-shadow: 0 0 5px rgba(81,129,184,0.5);
-    outline: none;
 }
 
 main section form input[type="submit"] {
     width: 100%;
     padding: 12px 15px;
-    background-color: #5181b8;
-    color: #fff;
+    background-color: var(--main-color);
+    color: white;
     font-size: 16px;
     font-weight: bold;
     border: none;
     border-radius: 8px;
     cursor: pointer;
-    transition: background-color 0.3s, transform 0.2s;
 }
 
 main section form input[type="submit"]:hover {
-    background-color: #3b5d9a;
-    transform: translateY(-2px);
+    background-color: var(--secondary-color);
 }
 
-::placeholder {
-    color: #aaa;
+main section form ::placeholder {
+    color: #726b6b;
+}
+
+input:focus{
+    outline-color: var(--main-color);
+}
+
+main section p{
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+main section a button{
+    width: 100%;
+    padding: 12px 15px;
+    background-color: var(--main-color);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+main section a button:hover{
+    background-color: var(--secondary-color);
+}
+
+main section a {
+    all: unset;
+    display: block;
+    margin: 1vh auto;
+    width: 100%;
+    text-align: center;
+}
+
+main section a:hover{
+    cursor: pointer;
+    text-decoration: underline;
 }

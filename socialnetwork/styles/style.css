@@ -1,6 +1,7 @@
 :root{
     --main-color: #064975;
     --main-width: 65%;
+    --secondary-color:#053a5e;
 }
 
 * {
@@ -69,4 +70,7 @@ header section .search-bar button{
     font-weight: bold;
     border-bottom-right-radius: 1vh;
     border-top-right-radius: 1vh;
+}
+header section .sysbut a img{
+    margin: 0 1vh;
 }
