@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Чебуррег</title>
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <link rel="stylesheet" href="regstyle.css" type="text/css">
+        <script src="regscript.js" defer></script>
+    </head>
+    <body>
+        <main>
+            <section>
+                <form action="/submit" method="post" id="regForm">
+                    <input type="text" name="Name" placeholder="Имя" required>
+                    <input type="text" name="Lastname" placeholder="Фамилия" required>
+                    <input type="tel" name="Numer" placeholder="Телефон" required pattern="[0-9]{11}">
+                    <input type="email" name="Email" placeholder="Эл. почта" required>
+                    <input type="password" name="Pwd" placeholder="Придумайте пароль" required minlength="6">
+                    <input type="password" name="RepPwd" placeholder="Повторите пароль" required>
+                    <input type="submit" value="Зарегистрироваться">
+                </form>
+                <a href="index.html">На главную</a>
+            </section>
+            
+        </main>
+    </body>
+</html>

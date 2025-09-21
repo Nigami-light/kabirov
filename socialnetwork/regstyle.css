@@ -1,0 +1,58 @@
+main{
+    width: var(--main-width);
+    margin: 0 auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main section{
+    background-color: #fff;
+    padding: 40px 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+    width: 350px;
+}
+
+main section form input[type="text"],
+main section form input[type="tel"],
+main section form input[type="email"],
+main section form input[type="password"],
+main section form input[type="reppassword"] {
+    width: 100%;
+    padding: 12px 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+main section form input:focus{
+    border-color: #5181b8;
+    box-shadow: 0 0 5px rgba(81,129,184,0.5);
+    outline: none;
+}
+
+main section form input[type="submit"] {
+    width: 100%;
+    padding: 12px 15px;
+    background-color: #5181b8;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+main section form input[type="submit"]:hover {
+    background-color: #3b5d9a;
+    transform: translateY(-2px);
+}
+
+::placeholder {
+    color: #aaa;
+}

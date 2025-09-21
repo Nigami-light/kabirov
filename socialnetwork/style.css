@@ -1,6 +1,8 @@
 :root{
     --main-color: #064975;
+    --main-width: 65%;
 }
+
 * {
   margin: 0;
   padding: 0;
@@ -22,7 +24,7 @@ header section{
     display: flex;
     flex-direction: row;
     margin: 0 auto;
-    max-width: 65%;
+    max-width: var(--main-width);
     gap: 3vh;
 }
 header section .logo{
