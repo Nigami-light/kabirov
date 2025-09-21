@@ -1,3 +1,6 @@
+:root{
+    --main-color: #064975;
+}
 * {
   margin: 0;
   padding: 0;
@@ -12,7 +15,7 @@ body {
 header{
     width: 100%;
     height: fit-content;
-    background: #1370ad;
+    background: var(--main-color);
 }
 header section{
     padding: 1vh;
@@ -20,8 +23,7 @@ header section{
     flex-direction: row;
     margin: 0 auto;
     max-width: 65%;
-    gap: 2vh;
-    border: 2px solid red;
+    gap: 3vh;
 }
 header section .logo{
     display: flex;
@@ -41,6 +43,7 @@ header section .logo p{
     font-size: 1.5em;
 }
 header section .search-bar{
+    flex: 1;
     display: flex;
     align-items: center;
     background: white;
