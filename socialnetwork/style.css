@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, sans-serif;
+  background: #f0f2f5;
+  color: #333;
+}
+header{
+    width: 100%;
+    height: fit-content;
+    background: #1370ad;
+}
+header section{
+    padding: 1vh;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    max-width: 65%;
+    gap: 2vh;
+    border: 2px solid red;
+}
+header section .logo{
+    display: flex;
+    width: fit-content;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    gap: 1vh;
+}
+header section .logo img{
+    display: block;
+    border-radius: 10px;
+}
+header section .logo p{
+    display: block;
+    text-align: justify;
+    margin: auto;
+    font-size: 1.5em;
+}
+header section .search-bar{
+    display: flex;
+    align-items: center;
+    background: white;
+    border: 2px solid #0b629c;
+    border-radius: 1vh;
+    width: 70%;
+}
+header section .search-bar input{
+    flex: 1;
+    padding-left: 1vh;
+    border: none;
+    outline: none;
+    font-size: 1em;
+}
+header section .search-bar button{
+    color: black;
+    padding: 0 1vh;
+    height: 100%;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-bottom-right-radius: 1vh;
+    border-top-right-radius: 1vh;
+}
