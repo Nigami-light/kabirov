@@ -19,7 +19,7 @@ main section form input[type="text"],
 main section form input[type="tel"],
 main section form input[type="email"],
 main section form input[type="password"],
-main section form input[type="reppassword"] {
+main section form input[type="reppassword"]{
     width: 100%;
     padding: 12px 15px;
     margin-bottom: 15px;
@@ -28,7 +28,7 @@ main section form input[type="reppassword"] {
     font-size: 14px;
 }
 
-main section form input[type="submit"] {
+main section form input[type="submit"]{
     width: 100%;
     padding: 12px 15px;
     background-color: var(--main-color);
@@ -40,11 +40,11 @@ main section form input[type="submit"] {
     cursor: pointer;
 }
 
-main section form input[type="submit"]:hover {
+main section form input[type="submit"]:hover{
     background-color: var(--secondary-color);
 }
 
-main section form ::placeholder {
+main section form ::placeholder{
     color: #726b6b;
 }
 
@@ -74,7 +74,7 @@ main section a button:hover{
     background-color: var(--secondary-color);
 }
 
-main section a {
+main section a{
     all: unset;
     display: block;
     margin: 1vh auto;
